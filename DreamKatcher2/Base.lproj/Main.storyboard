@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="UhP-9n-56M">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Dream Stats-->
+        <scene sceneID="WXK-l9-09W">
+            <objects>
+                <viewController title="Dream Stats" id="fve-aW-fsH" customClass="StatsViewController" customModule="DreamKatcher2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9KF-uJ-GQg"/>
+                        <viewControllerLayoutGuide type="bottom" id="KdT-kb-yhz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4ex-D4-BUj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="So far, you've had" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ba-mA-4Cb">
+                                <rect key="frame" x="125" y="72" width="351" height="38"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="18"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Nice." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dR3-ZF-3Br">
+                                <rect key="frame" x="125" y="478" width="351" height="38"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="As of today, you're lucid dreaming" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kpj-Qp-lfN">
+                                <rect key="frame" x="109" y="348" width="382" height="38"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="18"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Out of those dreams, " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="che-mp-PbS">
+                                <rect key="frame" x="125" y="256" width="351" height="38"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="18"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCK-Eg-Z3O">
+                                <rect key="frame" x="209" y="302" width="35" height="38"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="28"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="were lucid." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOW-1z-JWO">
+                                <rect key="frame" x="252" y="302" width="140" height="38"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="28"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="/ week." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FAZ-uf-fAH">
+                                <rect key="frame" x="285" y="415" width="96" height="38"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="28"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="at a rate of" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzN-FJ-ub2">
+                                <rect key="frame" x="125" y="369" width="351" height="38"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="18"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="over the course of" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s8E-vF-Q3L">
+                                <rect key="frame" x="125" y="164" width="351" height="38"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="18"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="00.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ETi-BA-kV7">
+                                <rect key="frame" x="220" y="415" width="57" height="38"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="28"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="neA-Ns-sNM">
+                                <rect key="frame" x="232" y="118" width="35" height="38"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="28"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="dreams" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6f-z7-WuI">
+                                <rect key="frame" x="275" y="118" width="93" height="38"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="28"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFh-YS-mRc">
+                                <rect key="frame" x="236" y="210" width="35" height="38"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="28"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="day(s)." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nc6-iI-9CE">
+                                <rect key="frame" x="279" y="210" width="85" height="38"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="28"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="neA-Ns-sNM" secondAttribute="centerX" constant="54.5" id="2WV-FF-voS"/>
+                            <constraint firstAttribute="centerX" secondItem="ETi-BA-kV7" secondAttribute="centerX" constant="67.5" id="329-YN-Mch"/>
+                            <constraint firstAttribute="centerX" secondItem="2ba-mA-4Cb" secondAttribute="centerX" constant="-0.5" id="9Kh-5P-c1m"/>
+                            <constraint firstItem="n6f-z7-WuI" firstAttribute="leading" secondItem="neA-Ns-sNM" secondAttribute="trailing" constant="8" id="JkN-iC-4gG"/>
+                            <constraint firstAttribute="centerX" secondItem="IOW-1z-JWO" secondAttribute="centerX" constant="-22" id="Lsw-wh-0AP"/>
+                            <constraint firstAttribute="centerX" secondItem="s8E-vF-Q3L" secondAttribute="centerX" constant="-0.5" id="MAk-AM-G3f"/>
+                            <constraint firstAttribute="centerX" secondItem="BFh-YS-mRc" secondAttribute="centerX" constant="36.5" id="Xhe-aq-QZE"/>
+                            <constraint firstItem="FAZ-uf-fAH" firstAttribute="leading" secondItem="ETi-BA-kV7" secondAttribute="trailing" constant="8" id="Xz4-DT-dFv"/>
+                            <constraint firstAttribute="centerX" secondItem="dR3-ZF-3Br" secondAttribute="centerX" constant="-0.5" id="cyi-BV-1W1"/>
+                            <constraint firstAttribute="centerX" secondItem="n6f-z7-WuI" secondAttribute="centerX" constant="-22" id="d8s-dy-p8K"/>
+                            <constraint firstItem="IOW-1z-JWO" firstAttribute="leading" secondItem="TCK-Eg-Z3O" secondAttribute="trailing" constant="8" id="enE-ns-q1M"/>
+                            <constraint firstAttribute="centerX" secondItem="kpj-Qp-lfN" secondAttribute="centerX" id="guN-eZ-XV7"/>
+                            <constraint firstAttribute="centerX" secondItem="che-mp-PbS" secondAttribute="centerX" constant="-0.5" id="h1k-ZN-Yjy"/>
+                            <constraint firstAttribute="centerX" secondItem="Nc6-iI-9CE" secondAttribute="centerX" constant="-22" id="mgN-fh-C4y"/>
+                            <constraint firstAttribute="centerX" secondItem="TCK-Eg-Z3O" secondAttribute="centerX" constant="73.5" id="oCn-aZ-Uxt"/>
+                            <constraint firstItem="Nc6-iI-9CE" firstAttribute="leading" secondItem="BFh-YS-mRc" secondAttribute="trailing" constant="8" id="uAw-vE-kZc"/>
+                            <constraint firstAttribute="centerX" secondItem="fzN-FJ-ub2" secondAttribute="centerX" constant="-0.5" id="w1z-HR-3Pq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="dWh-mw-r2V"/>
+                    <connections>
+                        <outlet property="days" destination="BFh-YS-mRc" id="eKX-ih-bSw"/>
+                        <outlet property="dreamsPerWeek" destination="ETi-BA-kV7" id="9Fe-Ut-hYE"/>
+                        <outlet property="lucidDreams" destination="TCK-Eg-Z3O" id="dNZ-RY-gz7"/>
+                        <outlet property="totalDreams" destination="neA-Ns-sNM" id="3VR-7e-mys"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lUu-lV-Wn1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1763" y="-538"/>
+        </scene>
+        <!--Add Dream-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="DreamKatcher2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Keyword" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7UA-6t-7ei">
+                                <rect key="frame" x="221" y="72" width="158" height="38"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="22"/>
+                                <color key="textColor" red="0.7882353663444519" green="0.89411771297454834" blue="0.9490196704864502" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Description" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lUC-oU-qBa">
+                                <rect key="frame" x="221" y="164" width="158" height="47"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="22"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Tags" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ci-U0-4H2">
+                                <rect key="frame" x="221" y="352" width="158" height="47"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="22"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ahl-qC-QTj">
+                                <rect key="frame" x="184" y="118" width="233" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="(comma-separated)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AU7-Yd-nId">
+                                <rect key="frame" x="221" y="370" width="158" height="47"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="13"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Ci-bJ-zQm">
+                                <rect key="frame" x="146" y="219" width="308" height="125"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardAppearance="alert"/>
+                            </textView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gMc-MW-m9a">
+                                <rect key="frame" x="276" y="463" width="51" height="31"/>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="176" y="496" width="51" height="31"/>
+                                </variation>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Not Lucid" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zxm-KS-7qO">
+                                <rect key="frame" x="187" y="468" width="81" height="21"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="18"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Lucid" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bmT-uQ-XcS">
+                                <rect key="frame" x="333" y="468" width="46" height="21"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="18"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="233" y="501" width="46" height="21"/>
+                                </variation>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bkm-pE-eGS">
+                                <rect key="frame" x="146" y="425" width="308" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dr-WT-Xaf">
+                                <rect key="frame" x="233" y="502" width="134" height="35"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="22"/>
+                                <state key="normal" title="[Save Dream]">
+                                    <color key="titleColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="S0Y-yy-Aqm" kind="show" identifier="saveDream" id="Lac-HC-Tod"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="lUC-oU-qBa" firstAttribute="height" secondItem="7UA-6t-7ei" secondAttribute="height" id="8g6-Gw-vLU"/>
+                            <constraint firstAttribute="centerX" secondItem="1Ci-bJ-zQm" secondAttribute="centerX" constant="-0.5" id="FgH-vI-FfG"/>
+                            <constraint firstItem="lUC-oU-qBa" firstAttribute="height" secondItem="1Ci-U0-4H2" secondAttribute="height" id="Hza-75-Q5A"/>
+                            <constraint firstAttribute="centerX" secondItem="9dr-WT-Xaf" secondAttribute="centerX" id="SNc-eR-ZD3"/>
+                            <constraint firstAttribute="centerX" secondItem="gMc-MW-m9a" secondAttribute="centerX" constant="-0.5" id="UQ6-0X-bE2"/>
+                            <constraint firstItem="gMc-MW-m9a" firstAttribute="leading" secondItem="zxm-KS-7qO" secondAttribute="trailing" constant="8" id="ZlB-es-KJR"/>
+                            <constraint firstAttribute="centerX" secondItem="bkm-pE-eGS" secondAttribute="centerX" constant="-0.5" id="aV6-3b-ffD"/>
+                            <constraint firstAttribute="centerX" secondItem="7UA-6t-7ei" secondAttribute="centerX" id="cHA-5f-waf"/>
+                            <constraint firstItem="bmT-uQ-XcS" firstAttribute="leading" secondItem="gMc-MW-m9a" secondAttribute="trailing" constant="8" id="iNA-e3-KoX"/>
+                            <constraint firstAttribute="centerX" secondItem="ahl-qC-QTj" secondAttribute="centerX" constant="-0.5" id="lpy-UT-UB5"/>
+                            <constraint firstAttribute="centerX" secondItem="AU7-Yd-nId" secondAttribute="centerX" id="rlB-Tn-1z8"/>
+                            <constraint firstAttribute="centerX" secondItem="lUC-oU-qBa" secondAttribute="centerX" id="upZ-l5-rwB"/>
+                            <constraint firstAttribute="centerX" secondItem="1Ci-U0-4H2" secondAttribute="centerX" id="vQX-NF-fBR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Add Dream" id="7aI-Bb-L6b">
+                        <barButtonItem key="leftBarButtonItem" title="Stats" id="cm5-6N-gBN">
+                            <connections>
+                                <segue destination="fve-aW-fsH" kind="show" identifier="toStats" id="PTX-wh-HIH"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Dreams" id="wjO-7u-s3q">
+                            <connections>
+                                <segue destination="S0Y-yy-Aqm" kind="show" identifier="showDreams" id="WTy-m1-R5e"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="descField" destination="1Ci-bJ-zQm" id="Ktc-Q0-Bxm"/>
+                        <outlet property="dreamListButton" destination="wjO-7u-s3q" id="ArY-aS-rSr"/>
+                        <outlet property="lucidSwitch" destination="gMc-MW-m9a" id="0ut-O6-MP5"/>
+                        <outlet property="saveButton" destination="9dr-WT-Xaf" id="jpV-LQ-38p"/>
+                        <outlet property="tagField" destination="bkm-pE-eGS" id="dzc-cZ-F6v"/>
+                        <outlet property="titleField" destination="ahl-qC-QTj" id="dUo-qb-bP0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="952" y="137"/>
+        </scene>
+        <!--Dream List Table View Controller-->
+        <scene sceneID="tfP-g5-btP">
+            <objects>
+                <tableViewController id="S0Y-yy-Aqm" customClass="DreamListTableViewController" customModule="DreamKatcher2" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="zBc-QT-sbM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" barStyle="black" placeholder="Search by tag or date!" id="2Ew-1z-vRf">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="dreamCell" id="52o-FE-HJz" customClass="DreamTableViewCell" customModule="DreamKatcher2" customModuleProvider="target">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="52o-FE-HJz" id="p5d-Q0-hX9">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6om-ff-TOH">
+                                            <rect key="frame" x="461" y="11" width="131" height="21"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="18"/>
+                                            <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wPR-zy-EGV">
+                                            <rect key="frame" x="8" y="11" width="298" height="21"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="18"/>
+                                            <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="wPR-zy-EGV" firstAttribute="leading" secondItem="p5d-Q0-hX9" secondAttribute="leadingMargin" id="k35-Rp-TAK"/>
+                                        <constraint firstItem="6om-ff-TOH" firstAttribute="trailing" secondItem="p5d-Q0-hX9" secondAttribute="trailingMargin" id="uuN-NB-Swi"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dateLabel" destination="6om-ff-TOH" id="Rdw-m2-LSx"/>
+                                    <outlet property="titleLabel" destination="wPR-zy-EGV" id="MkU-VD-m0N"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="S0Y-yy-Aqm" id="qI0-jg-qEh"/>
+                            <outlet property="delegate" destination="S0Y-yy-Aqm" id="FLo-Ea-Ieq"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="searchBar" destination="2Ew-1z-vRf" id="gIC-He-EZL"/>
+                        <segue destination="GdL-LG-Ppl" kind="show" identifier="showDream" id="sCV-vU-9Jk"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NAX-Lz-vTn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1610" y="137"/>
+        </scene>
+        <!--Dream Details-->
+        <scene sceneID="HR5-se-Kw5">
+            <objects>
+                <viewController id="djl-7F-Iai" customClass="DreamDetailViewController" customModule="DreamKatcher2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IBG-1I-bGw"/>
+                        <viewControllerLayoutGuide type="bottom" id="mL2-wA-n6s"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QBN-Z5-K0o">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Keyword" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yez-zD-pdE">
+                                <rect key="frame" x="221" y="72" width="158" height="38"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="22"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Description" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T1e-Av-kFG">
+                                <rect key="frame" x="221" y="164" width="158" height="47"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="22"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Tags" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="giD-4k-gpW">
+                                <rect key="frame" x="221" y="352" width="158" height="47"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="22"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nzQ-nV-q1D">
+                                <rect key="frame" x="184" y="118" width="233" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="(comma-separated)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSI-M4-Yml">
+                                <rect key="frame" x="221" y="370" width="158" height="47"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="13"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bWC-pV-xbR">
+                                <rect key="frame" x="146" y="219" width="308" height="125"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <switch opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Lam-mU-M4K">
+                                <rect key="frame" x="276" y="463" width="51" height="31"/>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="176" y="496" width="51" height="31"/>
+                                </variation>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Not Lucid" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lpu-9Q-iE1">
+                                <rect key="frame" x="187" y="468" width="81" height="21"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="18"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Lucid" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glp-q1-dhH">
+                                <rect key="frame" x="333" y="468" width="46" height="21"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="18"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="233" y="501" width="46" height="21"/>
+                                </variation>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="073-TP-jPs">
+                                <rect key="frame" x="146" y="425" width="308" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.78823536630000002" green="0.89411771299999998" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="scootUp:" destination="AdN-33-B9r" eventType="touchUpInside" id="9cf-xi-mPv"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="T1e-Av-kFG" firstAttribute="height" secondItem="Yez-zD-pdE" secondAttribute="height" id="02P-v0-ZSS"/>
+                            <constraint firstAttribute="centerX" secondItem="nzQ-nV-q1D" secondAttribute="centerX" constant="-0.5" id="0dU-u8-qUe"/>
+                            <constraint firstAttribute="centerX" secondItem="Lam-mU-M4K" secondAttribute="centerX" constant="-0.5" id="7So-gQ-8Ky"/>
+                            <constraint firstAttribute="centerX" secondItem="giD-4k-gpW" secondAttribute="centerX" id="CKJ-An-V1v"/>
+                            <constraint firstItem="Lam-mU-M4K" firstAttribute="leading" secondItem="Lpu-9Q-iE1" secondAttribute="trailing" constant="8" id="D2u-5W-DJK"/>
+                            <constraint firstAttribute="centerX" secondItem="T1e-Av-kFG" secondAttribute="centerX" id="IuG-dW-kP5"/>
+                            <constraint firstAttribute="centerX" secondItem="073-TP-jPs" secondAttribute="centerX" id="SUr-1T-KFl"/>
+                            <constraint firstAttribute="centerX" secondItem="bWC-pV-xbR" secondAttribute="centerX" id="Xas-ES-7S3"/>
+                            <constraint firstAttribute="centerX" secondItem="WSI-M4-Yml" secondAttribute="centerX" id="bc0-9j-SUz"/>
+                            <constraint firstAttribute="centerX" secondItem="Yez-zD-pdE" secondAttribute="centerX" id="dhk-SF-ewK"/>
+                            <constraint firstItem="glp-q1-dhH" firstAttribute="leading" secondItem="Lam-mU-M4K" secondAttribute="trailing" constant="8" id="heH-By-lY5"/>
+                            <constraint firstItem="T1e-Av-kFG" firstAttribute="height" secondItem="giD-4k-gpW" secondAttribute="height" id="onc-DJ-5C9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Dream Details" id="0La-aX-5cL"/>
+                    <connections>
+                        <outlet property="descField" destination="bWC-pV-xbR" id="45a-xf-DUg"/>
+                        <outlet property="lucidSwitch" destination="Lam-mU-M4K" id="vaE-7r-7T3"/>
+                        <outlet property="tagField" destination="073-TP-jPs" id="KWS-wM-aRW"/>
+                        <outlet property="titleField" destination="nzQ-nV-q1D" id="Xgd-hg-Ojc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AdN-33-B9r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3072" y="137"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5QW-oQ-0by">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UhP-9n-56M" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="xUx-a1-Gc8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="O2c-Wf-EIL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h8M-4F-XBo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="286" y="137"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="I6p-J8-Al6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GdL-LG-Ppl" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="TkM-2Y-s6i">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="djl-7F-Iai" kind="relationship" relationship="rootViewController" id="g02-rM-wbR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Nh-sB-3mO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2328" y="137"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pDJ-HQ-d5d">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="McU-Ag-D0b" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="xjV-Zw-aC7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fve-aW-fsH" kind="relationship" relationship="rootViewController" id="yJV-Dh-mZA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7bx-lL-eYH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="951" y="-538"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="PTX-wh-HIH"/>
+        <segue reference="WTy-m1-R5e"/>
+    </inferredMetricsTieBreakers>
+</document>
